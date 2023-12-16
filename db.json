@@ -1,0 +1,58 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Tech Innovators Ltd",
+      "website": "http://www.techinnovators.com",
+      "userName": "John Doe",
+      "userEmail": "john.doe@example.com",
+      "userPassword": "securePassword123",
+      "agreesWithConditions": true
+    },
+    {
+      "id": 2,
+      "name": "Digital Solutions Inc",
+      "website": "http://www.digitalsolutions.com",
+      "userName": "Jane Smith",
+      "userEmail": "jane.smith@example.com",
+      "userPassword": "strongPassword456",
+      "agreesWithConditions": true
+    }
+  ],
+
+  "students": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "studentPassword123",
+      "cohort": "ft-jan-24",
+      "projectId": [101, 102]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "password": "studentPassword456",
+      "cohort": "ft-apr-24",
+      "projectId": [103]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 101,
+      "companyId": 1,
+      "studentId": [1],
+      "stakeholders": [
+        {
+          "name": "John Doe",
+          "email": "john.doe@techinnovators.com"
+        }
+      ],
+      "challengeName": "Innovative Tech Solutions",
+      "challengeDescription": "Developing cutting-edge solutions for the tech industry.",
+      "videoSubmission": "https://www.youtube.com/watch?v=example"
+    }
+  ]
+}
