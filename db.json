@@ -26,16 +26,14 @@
       "name": "Alice Johnson",
       "email": "alice.johnson@example.com",
       "password": "studentPassword123",
-      "cohort": "ft-jan-24",
-      "projectId": [101, 102]
+      "cohort": "ft-jan-24"
     },
     {
       "id": 2,
       "name": "Bob Smith",
       "email": "bob.smith@example.com",
       "password": "studentPassword456",
-      "cohort": "ft-apr-24",
-      "projectId": [103]
+      "cohort": "ft-apr-24"
     }
   ],
 
@@ -43,7 +41,6 @@
     {
       "id": 101,
       "companyId": 1,
-      "studentId": [1],
       "stakeholders": [
         {
           "name": "John Doe",
@@ -54,5 +51,11 @@
       "challengeDescription": "Developing cutting-edge solutions for the tech industry.",
       "videoSubmission": "https://www.youtube.com/watch?v=example"
     }
+  ],
+
+  "projectsStudents": [
+    { "projectId": 101, "studentId": 1 },
+    { "projectId": 102, "studentId": 1 },
+    { "projectId": 103, "studentId": 2 }
   ]
 }
