@@ -22,14 +22,14 @@
 
   "students": [
     {
-      "id": 1,
+      "id": 501,
       "name": "Alice Johnson",
       "email": "alice.johnson@example.com",
       "password": "studentPassword123",
       "cohort": "ft-jan-24"
     },
     {
-      "id": 2,
+      "id": 502,
       "name": "Bob Smith",
       "email": "bob.smith@example.com",
       "password": "studentPassword456",
@@ -54,8 +54,8 @@
   ],
 
   "projectsStudents": [
-    { "projectId": 101, "studentId": 1 },
-    { "projectId": 102, "studentId": 1 },
-    { "projectId": 103, "studentId": 2 }
+    { "projectId": 101, "studentId": 501 },
+    { "projectId": 102, "studentId": 501 },
+    { "projectId": 103, "studentId": 502 }
   ]
 }
