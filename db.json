@@ -39,7 +39,7 @@
 
   "projects": [
     {
-      "id": 301,
+      "id": 101,
       "companyId": 1,
       "stakeholders": [
         {
@@ -54,8 +54,8 @@
   ],
 
   "projectsStudents": [
-    { "projectId": 301, "studentId": 501 },
-    { "projectId": 302, "studentId": 501 },
-    { "projectId": 303, "studentId": 502 }
+    { "projectId": 101, "studentId": 501 },
+    { "projectId": 102, "studentId": 501 },
+    { "projectId": 103, "studentId": 502 }
   ]
 }
