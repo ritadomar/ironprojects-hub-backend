@@ -53,9 +53,5 @@
     }
   ],
 
-  "projectsStudents": [
-    { "id": 1, "projectId": 101, "studentId": 501 },
-    { "id": 2, "projectId": 102, "studentId": 501 },
-    { "id": 3, "projectId": 103, "studentId": 502 }
-  ]
+  "projectsStudents": []
 }
