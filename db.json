@@ -17,6 +17,15 @@
       "userEmail": "jane.smith@example.com",
       "userPassword": "strongPassword456",
       "agreesWithConditions": true
+    },
+    {
+      "id": 3,
+      "name": "Ironhack Portugal",
+      "website": "http://www.ironhack.com",
+      "userName": "Carolina Martins",
+      "userEmail": "carolina.martins@example.com",
+      "userPassword": "123456789!",
+      "agreesWithConditions": true
     }
   ],
 
