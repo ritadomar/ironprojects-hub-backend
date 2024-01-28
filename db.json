@@ -54,6 +54,10 @@
         {
           "name": "John Doe",
           "email": "john.doe@techinnovators.com"
+        },
+        {
+          "name": "Jane Doe",
+          "email": "jane.doe@techinnovators.com"
         }
       ],
       "challengeName": "Innovative Tech Solutions",
